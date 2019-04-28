@@ -1,0 +1,25 @@
+{
+  "name": "ui_lib_project",
+  "version": "1.0.0",
+  "description": "simple UI library starter project",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "keywords": [
+    "babel",
+    "webpack"
+  ],
+  "author": "Thom David",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
