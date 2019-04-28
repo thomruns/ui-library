@@ -5,9 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>UI Library</title>
+  <style>
+    body { font-size: 1.2em; }
+    .container{ margin: 40px; margin-top: 60px; }
+  </style>
 </head>
 <body>
   <h1>UI Library</h1>
+  <div class="container">
+    <!-- tooltip -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam commodi consequatur molestias, esse provident sequi nemo, dolorum quaerat recusandae assumenda minima mollitia hic sit perferendis! Sunt minima voluptatibus et vel? Lorem ipsum dolor sit amet, <span class="tooltip" data-message="I'm a tooltip!">consectetur adipisicing</span> elit. Dolorum quas, obcaecati perspiciatis, natus alias a, nihil nam aliquam iusto quidem quibusdam praesentium magni perferendis at <span class="tooltip test-tip" data-message="Do you see me?">tempora</span> accusamus. Maiores, iusto qui?</p>
+  </div>
   <script src="assets/bundle.js"></script>
 </body>
 </html>
